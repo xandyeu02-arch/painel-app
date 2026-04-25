@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0a0a0a;
+  color: #00ff99;
+  text-align: center;
+}
+
+#login, #app {
+  padding: 30px;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  width: 80%;
+  padding: 12px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #00ff99;
+  color: black;
+  font-weight: bold;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #050505;
+  color: #00ffcc;
+  text-align: center;
+}
+
+/* títulos */
+h2, h3 {
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+/* inputs */
+input {
+  width: 80%;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #00ffcc;
+  background: black;
+  color: #00ffcc;
+}
+
+/* botões */
+button {
+  width: 80%;
+  padding: 12px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #00ffcc;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 15px #00ffcc;
+  transition: 0.3s;
+}
+
+/* efeito ao passar o dedo/mouse */
+button:hover {
+  background: #00ffaa;
+  box-shadow: 0 0 25px #00ffaa;
+}
+
+/* painel */
+#app {
+  border-top: 2px solid #00ffcc;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* log */
+#log {
+  margin-top: 15px;
+  color: #00ffaa;
+  font-size: 14px;
+}
